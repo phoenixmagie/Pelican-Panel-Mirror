@@ -3,8 +3,8 @@ Deploy easy your Github Changes via Github Actions to Pelican Panel Pterodactyl.
 
 
 ### EN:
- https://github.com/phoenixmagie/Pelican-Panel-Mirror/README_EN.md
+ https://github.com/phoenixmagie/Pelican-Panel-Mirror/blob/main/README_EN.md
 
 ### DE:
 
-https://github.com/phoenixmagie/Pelican-Panel-Mirror/README_DE.md
+https://github.com/phoenixmagie/Pelican-Panel-Mirror/blob/main/README_DE.md
