@@ -67,4 +67,4 @@ Der Workflow nutzt verschlüsselte GitHub Secrets, damit deine Passwörter nicht
 
 * **Achtung bei `--delete`**: Der Befehl `mirror --reverse --delete` löscht gnadenlos alle Dateien auf dem Server, die nicht im Git-Repository existieren. Stelle sicher, dass der Zielordner auf dem Server leer ist oder nur für dieses Git-Projekt genutzt wird!
 * **Port 2022**: Der Workflow ist aktuell fest auf den Port `2022` eingestellt (`-p 2022`). Wenn dein Server den Standard-Port `22` nutzt, passe die Zahl im Workflow-Code an.
-* **Fehler-Ignorierung**: Durch `continue-on-error: true` wird der GitHub-Job auch bei Fehlern (z. B. Verbindungsabbrüchen) als "erfolgreich" (grün) markiert, damit du keine nervigen E-Mails erhältst. Prüfe bei Problemen daher aktiv die Logs unter dem Reiter **Actions**.
+* **Fehler-Ignorierung**: Durch `continue-on-error: true` wird der GitHub-Job auch bei Fehlern, der leider immer Auftritt, damit du keine nervigen E-Mails erhältst. Prüfe bei Problemen daher aktiv die Logs unter dem Reiter **Actions**.
